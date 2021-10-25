@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="selenium-api-4.0.0-sources">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-api-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-chrome-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-chromium-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v85-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v93-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v94-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v95-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-edge-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-firefox-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-firefox-xpi-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-http-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-ie-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-java-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-json-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-opera-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-remote-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-safari-driver-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-support-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-api-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-chrome-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-chromium-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v85-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v93-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v94-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-devtools-v95-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-edge-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-firefox-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-firefox-xpi-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-http-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-ie-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-json-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-opera-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-remote-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-safari-driver-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/selenium/Selenium_List_Of_Jar/selenium-support-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
