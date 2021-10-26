@@ -2,9 +2,9 @@ package Skyscanner;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
 public class TestScriptOne
@@ -12,10 +12,20 @@ public class TestScriptOne
   public static void main(String[] args) throws InterruptedException
   {
     //Set up
+    //
+    ChromeOptions options = new ChromeOptions();
+    options.setCapability("capability_name", "capability_value");
+    options.addArguments("incognito");
+    //capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
+
     System.setProperty("webdriver.chrome.driver", "/home/rachel/selenium/chromedriver_linux64/chromedriver");
-    WebDriver driver = new ChromeDriver();
-    driver.get("https://www.skyscanner.net/");
+    WebDriver driver = new ChromeDriver(options);
     driver.manage().window().maximize();
+    driver.manage().deleteAllCookies();
+    driver.get("https://www.skyscanner.net/");
+
+
     //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
     //Clicks "Accepts Cookies" button
@@ -32,8 +42,9 @@ public class TestScriptOne
     dropMonthYear.selectByVisibleText("January 2022");
 
     //Select date
-    //driver.findElement(By.xpath("//tbody/tr[1]/td[1]")).click();
+    driver.findElement(By.xpath("//button[@aria-label=\"Saturday, 8 January 2022\"]")).click();
 
+    System.out.println("Saturday 8 January");
     driver.close();
   }
 }
