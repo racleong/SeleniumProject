@@ -18,9 +18,10 @@ public class FirstScript {
     String actualTitle = driver.getTitle();
     System.out.println("Your page title is: " + actualTitle);
     String expectedTitle = "Amazon.co.uk : bike";
-    driver.close();
+
     if (actualTitle.equalsIgnoreCase(expectedTitle)) {
       System.out.println("Test Successful");
+      driver.close();
     } else {
       System.out.println("Test Failure");
     }
